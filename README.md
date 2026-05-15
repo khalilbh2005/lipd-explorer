@@ -4,6 +4,30 @@ Application web fullstack pour explorer et visualiser des datasets paléoclimati
 au format [Linked Paleo Data (LiPD)](https://lipd.net/), construite à des fins
 d'apprentissage du format LiPD et de la stack technique utilisée à l'IPSL.
 
+## Aperçu
+
+### Page d'accueil — liste des datasets disponibles
+
+![Page d'accueil](docs/screenshots/home.png)
+
+### Page de détail — métadonnées et publication source
+
+![Détail du dataset](docs/screenshots/dataset-detail.png)
+
+### Variables disponibles avec leur statut
+
+Chaque variable est classée par statut (`complete`, `non-numeric`, `incomplete`).
+Seules les variables `complete` peuvent être visualisées sous forme de graphique.
+
+![Tableau des variables](docs/screenshots/variables-table.png)
+
+### Visualisation interactive d'une série temporelle
+
+Exemple : reconstruction de la température de surface de l'océan (proxy `temp prahl`)
+sur 5 millions d'années, mesurée sur la carotte ODP846.
+
+![Graphique de la série temporelle](docs/screenshots/chart.png)
+
 ## Contexte
 
 Le format **LiPD** (Linked Paleo Data) est un standard de données utilisé par la
