@@ -1,0 +1,137 @@
+# =============================================================================
+# .gitignore - LiPD Explorer
+# Empêche Git de versionner les fichiers temporaires, lourds ou sensibles
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+venv/
+env/
+.venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# -----------------------------------------------------------------------------
+# Django
+# -----------------------------------------------------------------------------
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+media/
+staticfiles/
+backend/media/
+backend/staticfiles/
+
+# -----------------------------------------------------------------------------
+# Node.js / Vue / Vite
+# -----------------------------------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.cache/
+*.local
+
+# Logs npm/yarn/pnpm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -----------------------------------------------------------------------------
+# IDE / Éditeurs
+# -----------------------------------------------------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.history/
+.cursor/
+
+# -----------------------------------------------------------------------------
+# Systèmes d'exploitation
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# -----------------------------------------------------------------------------
+# Variables d'environnement (NE JAMAIS COMMITER LES SECRETS)
+# -----------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+.env.test.local
+*.pem
+secrets.json
+
+# -----------------------------------------------------------------------------
+# Fichiers temporaires
+# -----------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+.tmp/
+tmp/
+temp/
+
+# -----------------------------------------------------------------------------
+# Données spécifiques au projet
+# -----------------------------------------------------------------------------
+# Les fichiers .lpd uploadés à l'exécution (pas ceux du repo)
+backend/uploads/
+backend/media/uploads/
+
+# Cache PyLiPD
+*.lpd.tmp
+
+# -----------------------------------------------------------------------------
+# Documentation générée
+# -----------------------------------------------------------------------------
+docs/_build/
+site/
