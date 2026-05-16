@@ -1,8 +1,7 @@
 # LiPD Explorer
 
 Application web fullstack pour explorer et visualiser des datasets paléoclimatiques
-au format [Linked Paleo Data (LiPD)](https://lipd.net/), construite à des fins
-d'apprentissage du format LiPD et de la stack technique utilisée à l'IPSL.
+au format [Linked Paleo Data (LiPD)](https://lipd.net/).
 
 ## Aperçu
 
