@@ -34,10 +34,7 @@ communauté internationale de paléoclimatologie pour stocker, partager et analy
 les enregistrements climatiques issus de proxies (carottes de glace, sédiments,
 cernes d'arbres, coraux, pollen...).
 
-Ce projet a été développé dans le cadre de la préparation à un entretien
-d'alternance au [Centre de données ESPRI](https://espri.ipsl.fr/) de l'IPSL,
-qui maintient notamment l'*IPSL Paleoclimate Database* et l'*African Pollen
-Database* — deux applications web basées sur le format LiPD.
+
 
 ## Fonctionnalités
 
